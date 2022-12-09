@@ -1,0 +1,613 @@
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+.p-70-45 {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px;
+    position: relative;
+    z-index: 0;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .p-70-45 {
+        padding: 70px 45px;
+    }
+}
+.our-story-card-background {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+.our-story-card-background .concord-img-wrapper {
+    height: 798.594px;
+}
+.our-story-card-background .concord-img-gradient {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+.our-story-card-background .our-story-card-background .concord-img-wrapper {
+    bottom: 0;
+}
+.our-story-card-background .concord-img-wrapper {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.p-70-45 .concord-img {
+    transform: none;
+    object-fit: cover;
+    width: 100%;
+    border: 0;
+    height: 100%;
+  
+}
+.our-story-card-background{
+    height: 759.594px !important;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .our-story-card-background{
+        top:-100px;
+    }
+}
+.our-story-card-text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+@media screen and (max-width:334px) {
+    .our-story-card-text {
+        padding: 0;
+    }
+    .p-70-45 {
+        padding: 50px 5%;
+    }
+}
+.our-story-card-text h1{
+    margin: 0 auto;
+    max-width: 640px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    line-height: 1.1;
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+    .our-story-card-text .our-story-card-title {
+        font-size: 3.125rem;
+
+    }
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .our-story-card-text .our-story-card-title {
+        font-size: 3.4rem;
+    }
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .our-story-card-text .our-story-card-subtitle {
+        font-size: 1.625rem;
+    }
+}
+.our-story-card-text .our-story-card-subtitle {
+    margin: 1rem auto;
+    max-width: 640px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 400;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .form-field {
+        max-width: 950px;
+        padding-top: 0.85rem;
+    }
+}
+.form-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px)  {
+    .form-field {
+        max-width: 950px;
+        padding-top: 0.85rem;
+    }
+}
+.email-form-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 450px;
+    word-break: break-all;
+}
+@media screen and (max-width:200px) {
+    .email-form-title.p-0 {
+        font-size: 7vw;
+    }
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+    .email-form-title {
+        font-size: 1.2rem;
+        max-width: none;
+        padding-bottom: 20px;
+    }
+    .email-form-title.p-0 {
+        padding: 2rem 0 0 0 !important;
+    }
+}
+.form-field .input-box {
+    display: flex;
+    width: 100%;
+}
+.input-group {
+    display: flex;
+    width: 640px;
+    margin: 2rem auto;
+    position: relative;
+    flex-wrap: nowrap;
+}
+.input-group.mb-0 {
+    margin-bottom: 0;
+}
+.input {
+    width: 100%;
+    padding: 10px 20px;
+    color: #000;
+    background-color: white;
+    font: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    border: none !important;
+    outline: none;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:680px) {
+    .input {
+        padding: 1.2rem 1.2rem;
+    }
+}
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 20px);
+    transition: transform 0.15s;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+input:focus + .input-label,
+input:valid + .input-label {
+    transform: translate(5px, 0px) scale(.8);
+    color: #000;
+    padding-inline: 5px;
+    font-size: 1.1rem;
+}
+input:is(:focus, :valid) {
+    outline-color: #d1c5fc;
+}
+@media only screen and (max-width:990px) {
+    .input-group {
+        margin-top: 2rem;
+    }
+}
+.start-href a{
+    display: flex;
+    align-items: flex-start;
+    padding: 8px 20px;
+    background-color: #e50914;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 2rem;
+    border: 1px solid red;
+}
+@media screen and (max-width:370px) {
+    .input-group {
+        flex-wrap: wrap;
+    }
+    .start-href{
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+    .input {
+        padding: 20px 20px;
+    }
+    .start-href a {
+        font-size: 6vw;
+        justify-content: center;
+    }
+}
+.p-70-45 .story-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.p-70-45 .story-text-box {
+    margin-top: -50px !important;
+}
+.p-70-45 .story-text-box, .story-img-box {
+    width: 50%;
+    position: relative;
+}
+.p-70-45 .story-text-box h1.story-title {
+    margin-bottom: 1.1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.p-70-45 .story-text-box h1.story-subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.p-70-45 .story-img-box .img-box {
+    margin: -10% -5% -5% 0;
+}
+.p-70-45 .story-img-box .img-box .video-box {
+    height: 100%;
+    left: 52%;
+    max-width: 78%;
+    position: absolute;
+    top: 44%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    z-index: -1;
+}
+.p-70-45 .story-img-box .img-box .video-box video {
+    height: 100%;
+    width: 100%;
+
+}
+@media only screen and (max-width:880px) {
+    .p-70-45 .story-text-box {
+        width: 100%;
+        margin: 0 !important;
+        text-align: center;
+    }
+    .p-70-45 .story-text-box.after-mt-0 {
+        margin-top: 0 !important;
+    }
+    .p-70-45 .story-img-box {
+        width: 100%;
+    }
+    .p-70-45 .story-img-box .img-box {
+        margin: 0;
+    }
+}
+.animation-img-box {
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+.animation-img-box .phone-img-box {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    margin: -8% 0 -4% -15%;
+}
+.story-text-box.pl-3 {
+    padding-left: 2rem;
+    margin-top: 2.5rem !important;
+}
+.story-text-box.pl-3 h1 {
+    line-height: 3.5rem;
+}
+.card-animation {
+    position: absolute;
+    left: 20%;
+    top: 64%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0.8rem;
+    border:2px solid hsla(0,0%,100%,.25);
+    border-radius: 13px;
+}
+@media screen and (max-width:516px){
+    .card-animation {
+        position: initial;
+        width: 100%;
+    }
+    .card-animation .flex .book-img {
+        width: 100%;
+    }
+    .card-animation .flex .book-img img{
+        object-fit: contain;
+    }
+}
+@media screen and (max-width:370px){
+    .card-animation .flex .texts {
+        margin: 1rem auto 0;
+    }
+}
+.card-animation .flex .book-img {
+    height: 65px;
+    margin-right: 0.7rem;
+}
+.card-animation .flex {
+    display: flex;
+    align-items: center;
+}
+.card-animation .flex .texts h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1rem;
+}
+.card-animation .flex .texts p {
+    color: #0071eb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1rem;
+}
+.card-animation .animation {
+    background-size: 100% !important;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+}
+@media only screen and (max-width:880px) {
+    .p-70-45 .story-card.row-reverse {
+        flex-direction: column-reverse;
+    }
+    .animation-img-box {
+        width: 100%;
+    }
+    .animation-img-box .phone-img-box {
+        margin: 0;
+    }
+}
+.video-box.two {
+    height: 100%;
+    left: 50%;
+    max-height: 55%;
+    max-width: 65% !important;
+    position: absolute;
+    top: 25% !important;
+    transform: translate(-80%,-50%);
+    width: 100%;
+}
+.video-box.two video {
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width:880px) {
+    .video-box.two {
+        height: 100%;
+        left: 50% !important;
+        max-height: 55%;
+        max-width: 64% !important;
+        position: absolute;
+        top: 32% !important;
+        transform: translate(-80%,-50%);
+        width: 100%;
+    }
+}
+.animation-img-box .kids-img-box {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    margin: -8% 0 -4% -15%;
+}
+@media only screen and (max-width:880px) {
+    .animation-img-box .kids-img-box {
+        margin: 8% 0 -4% 0;
+    }
+}       
+.p-70-45.center {
+    text-align: center;
+}
+.p-70-45 h1.questions {
+    margin-bottom: 9px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 3rem;
+}
+.p-70-45 div.list {
+    margin: 2em auto;
+    width: 75%;
+    max-width: 817px;
+    text-align:left !important;
+}
+@media only screen and (max-width:200px) {
+    .p-70-45 div.list {
+        width: 100%;
+    }
+}
+.p-70-45 div.card {
+    background: none;
+}
+.p-70-45 div.card div.card-header {
+    padding:  0;
+}
+.p-70-45 div.card div.card-header button.burger {
+    position: absolute;
+    right: 1rem;
+    top: 2.8rem;
+    background: none;
+    border: none;
+}
+.p-70-45 div.list div.card a.btn{
+    border-radius: 0 !important;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    position: relative;
+    background: #303030;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.p-70-45 div.list div.card a.btn svg {
+    fill: #fff;
+    height: 1em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+    transform: translateY(-50%) rotate(-45deg);
+}
+.p-70-45 div.list div.card div.card-body {
+    color: white;
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 1.9em 0.8em 1.2em;
+    position: relative;
+    background: #303030;
+    text-align: left;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+@media screen and (max-width:587px) {
+    .p-70-45 div.list div.card a.btn {
+        font-size: 3.6vw !important;
+    }
+    .p-70-45 div.list div.card div.card-body {
+        font-size: 4vw;
+    }
+}
+.p-70-45.center .input-box {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.p-70-45.center .input-box .get-started{
+    display: flex;
+    flex: 300px;
+}
+.p-70-45.center .input-box a{
+        display: flex;
+        align-items: flex-start;
+        padding: 8px 20px;
+        background-color: #e50914;
+        color:white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        font-size: 1.9rem;
+        border: 1px solid red;
+}
+.p-70-45.center .input-box .get-starteda:hover {
+        background-color: #f00612;
+}
+
+@media only screen and (max-width:684px) {
+    .p-70-45.center .input-box a {
+        font-size: 4vw;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .input-group{
+        width:-webkit-fill-available;
+    }
+    .p-70-45.center .input-box  .get-started a{
+        flex: 100%;
+        font-size: 10vw;
+    }
+    .p-70-45.center .input-box .get-started {
+        flex: 100%;
+        margin-left: 0 !important;
+    }
+    .p-70-45 .story-text-box h1.story-title {
+        font-size: 6.5vw;
+        line-height: 2rem;
+    }
+    .p-70-45 .story-text-box h1.story-subtitle{
+        font-size: 4.9vw;
+    }
+    .p-70-45 h1.questions {
+        font-size: 7vw;
+    }
+    .story-text-box.pl-3 {
+        padding: 0;
+    }
+    .card-animation .flex {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .card-animation .flex .texts p,h3 {
+        font-size: 5vw !important;
+    }
+}
+@media only screen and (max-width:532px){
+    .story-text-box.pl-3 {
+        margin-top: 6rem !important;
+    }
+}
+@media only screen and (max-width:370px) {
+    .story-text-box.pl-3 {
+        margin-top: 13rem !important;
+    }
+    .story-text-box.pl-3.mt-0 {
+        margin: 2rem 0 0 0 !important;
+    }
+    .animation-img-box .kids-img-box {
+        margin: -8% 0 -4% 0;
+    }
+}
+@media screen and (max-width:200px) {
+    .p-70-45 {
+        padding: 50px 12px;
+    }
+}

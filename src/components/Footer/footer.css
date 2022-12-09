@@ -1,0 +1,87 @@
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 75px 45px 0;
+}
+footer .footer {
+    color: #737373;
+    font-size: 1em;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+footer .site-footer {
+    margin: 0 auto;
+    /*padding-top: 30px;*/
+    width: 90%;
+}
+footer .footer p.footer-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 30px;
+    padding: 0;
+}
+footer .footer .site-footer .row- {
+    width: 100%;
+    display: flex;
+}
+footer .footer .site-footer .row- .col- {
+    width: 25%;
+}
+footer .footer .site-footer .row- .col- li {
+    box-sizing: border-box;
+    margin-bottom: 0.6rem;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+}
+footer .footer .site-footer .row- .col-  li a{
+    color: #737373 !important;
+    font-size: 0.9rem;
+}
+footer .footer .site-footer .row- .col-  li a:hover {
+    text-decoration: underline !important;
+}
+footer .footer .site-footer .lang-selection {
+    margin-top: 20px;
+}
+footer .footer .site-footer .lang-selection select {
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 1.1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 500;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+}
+footer .footer .site-footer .lang-selection select:focus {
+    border-radius: 4px;
+    border-color: #ddd;
+}
+footer .footer .site-footer p.footer-country {
+    font-size: 13px;
+    margin-top: 24px;
+}
+@media only screen and (max-width:570px) {
+    footer {
+        padding: 75px 0;
+    }
+    footer .footer .site-footer .row- {
+        flex-wrap: wrap;
+    }
+    footer .footer .site-footer .row- .col- {
+        width: 100%;
+    }
+    footer .footer .site-footer .row- .col-:not(:first-child) {
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width:200px) {
+    footer .footer .site-footer .lang-selection select {
+        font-size: 0.8rem;
+    }
+}

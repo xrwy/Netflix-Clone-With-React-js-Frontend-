@@ -1,0 +1,134 @@
+.header-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 5rem;
+    padding: 18px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+.header-wrapper .sub-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    row-gap: 20px;
+    width: 100%;
+    flex-flow: row wrap;
+    height: auto;
+    padding-top: 0.6rem;
+    margin: 0 3.5rem;
+    position: relative;
+}
+.header-wrapper .netflix-logo {
+    width:133px;
+}
+.header-wrapper .netflix-logo svg {
+    display: block;
+    width: 100%;
+    fill: #e50914;
+}
+.header-wrapper .right-box {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.header-wrapper .right-box .lang-switcher {
+    margin-right: 2.1rem;
+}
+.header-wrapper .right-box .lang-switcher select {
+    color:#fff;
+    background: none;
+    padding: 6px 0.7rem 6px 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3em;
+    border: 1px solid;
+    border-radius: 2px;
+    outline: none !important;
+    cursor: pointer;
+}
+.header-wrapper .right-box .lang-switcher select:focus{
+    outline: 1px solid #ddd !important;
+}
+.header-wrapper .right-box .lang-switcher option {
+    background-color: rgb(169,169,169,0.9);
+    color: white !important;
+    font-size: 13px;
+    font-weight: 500;
+}
+.header-wrapper .right-box .session-href a{
+    display: flex;
+    align-items:flex-start;
+    background-color: #e50914;
+    line-height: normal;
+    padding: 5.5px 17px;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 4px;
+}
+@media only screen and (max-width:472px) {
+    .header-wrapper .sub-box {
+        margin: 0 5%;
+    }
+    .netflix-logo {
+        width:88px !important;
+        margin-right: 1.5rem;
+    }
+    .header-wrapper .right-box .lang-switcher {
+        margin-right: 0;
+    }
+    .header-wrapper .right-box .lang-switcher select {
+        padding: 3px 0.3rem;
+        margin: 0 .75rem;
+    }
+    .header-wrapper .right-box .session-href a {
+        padding: 4px 10px;
+    }
+}
+
+
+@media screen and (max-width:334px) {
+    .header-wrapper {
+        height:max-content;
+    }
+    .our-story-card-background {
+        margin-top: -85px;
+    }
+    .header-wrapper .sub-box {
+        justify-content: center;
+    }
+    .netflix-logo {
+        margin-right: 0;
+    }
+    .header-wrapper .right-box{
+        width: 100%;
+    }
+    .header-wrapper .right-box .lang-switcher{
+        width: 100%;
+        margin-right: 0;
+    }
+    .right-box .lang-switcher select {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .right-box .session-href {
+        width: 100%;
+    }
+    .right-box .session-href a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:250px) {
+    .header-wrapper .sub-box {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .netflix-logo{
+        width: 100% !important;
+    }
+}
