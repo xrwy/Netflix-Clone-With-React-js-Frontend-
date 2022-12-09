@@ -7,8 +7,7 @@ const Header = () => {
             <div className='sub-box'>
                 <div className='netflix-logo'>
                     <span className="svg-logo">
-                        <svg viewBox="0 0 111 30" 
-                        className="svg-icon svg-icon-netflix-logo" 
+                        <svg viewBox="0 0 111 30"
                         aria-hidden="true" 
                         focusable="false">
                         <g>
